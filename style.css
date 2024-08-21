@@ -179,12 +179,12 @@ tfoot td {
 
   #hero {
     font-size: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .lts-img {
     width: 370px;
-    height: auto;
-    margin-top: 20px;
+    height: 268;
+    margin-top: 0px;
   }
 }
