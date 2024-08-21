@@ -152,7 +152,7 @@ tfoot td {
 
   .nav-bar ul {
     flex-direction: column;
-    padding: 0;
+    padding: -5;
   }
 
   .nav-bar li {
@@ -165,18 +165,9 @@ tfoot td {
   }
 
   .lts-img {
-    width: 380px;
+    width: 370px;
     height: 268px;
     margin-top: 0px;
    
   }
-    .nav-bar,
-    li a {
-      margin: 5px;
-      padding: 7px 8px;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-      transition: 0.15s;
-    }
 }
