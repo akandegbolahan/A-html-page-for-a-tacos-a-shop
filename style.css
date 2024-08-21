@@ -1,29 +1,154 @@
-html{
-  font-size: 22;
+html {
+  scroll-behavior: smooth;}
+
+  *{
+font-family: 'Happy Monkey', system-ui;
+box-sizing: border-box;
+margin: 0;
+
 }
 body{
-  background-color: #333;
-  color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
+
+  font-weight: 400;
+      font-style: normal;
+   background-color: #2e4053;
+   color: #ffc107;
+ 
 }
-table,td,th,tr,caption{
-  border: 1px solid whitesmoke;
-  border-collapse: collapse;
-  padding: 0.5rem;
+.container{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+   background-color: rgb(124, 122, 122);
+position: sticky;
+      top: 0;
+  }
+  #hero{
+    padding-left: 10px;
+      padding-right: 10px;
+      margin: 10px;
+      font-weight: 500;
+      font-family: inherit;
+      font-size: 40px;
+  }
+
+  #nav-bar, ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  #nav-bar, li{
+    float: left;
+  }
+#nav-bar, li a{
+  margin: 10px;
+  padding: 13px 6px;
+   text-decoration: none;
+   color: inherit;
+   display: block;
+    transition: 0.15s;
+     }
+      .lts-img {
+      background-image: url('/img/tacos_and_drink_400x267.png');
+      height: 467px;
+     background-size: cover;
+     margin-top: 15px;
+    border-radius: 3px;
+      
+   width: 100%;
+        margin: 0px;
+       
+     } 
+         li a:hover:not(.active) {
+         
+transform: scale(1.02);
+         }
+/* .active {
+  background-color: #04AA6D;
+} */
+ /* ---------------Our Menu -----------*/
+.menu-sec{
+  text-align: center;
 }
-a {
-  color: aliceblue;
+#menu{
+  margin:10px 0px;
+  font-size: 25px;
+ border-bottom: 2px solid #ffffff;
+display: inline-block;
+padding: 2px;
+letter-spacing: 2px;
+font-family: 'Times New Roman', Times, serif;
+}
+.data-table { 
+  margin: 15px auto 25px;
+
+}
+
+.menu__header,
+.menu__item {
+padding: 15px;
+border: medium ridge;
+width: 200px;
+}
+thead{
+  background-color: #fff;
+}
+thead th:first-child {
+  border-top-left-radius: 15px;
+}
+
+thead th:last-child {
+  border-top-right-radius: 15px;
+
+}
+
+tfoot td {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.btn{
+  color: #0f1419;
+  font-weight: bold;
+  border-radius: 15px;
+
+  margin: 20px;
+  padding: 5px 10px 5px 10px;
+  background: transparent;
+
+}
+
+.btn a:hover {
+  cursor: pointer;
+  border-color: #cfd9de;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+.btn a{
   text-decoration: none;
-}
+  background-color: transparent;
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
+  }
 
-a:visited {
-  color: lightgray;
-}
+.footer{
+  background-color: #0f1419;
+  padding: 13px;
+  text-align: center;
+  }
+  .footer p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
-a:hover,
-a:active {
-  color: #eee;
-}
-button{
-  background-color: #333;
-}
+@media (min-width: 320px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1220px) {}
+
+@media (min-width: 1440px) {}

@@ -1,0 +1,120 @@
+html {
+  font-size: 22;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+table,
+td,
+th,
+tr,
+caption {
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
+
+button {
+  background-color: #333;
+}
+
+
+/* kkkj */
+.data-table{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "hd1 hd2 hd3"
+    "cr cr1 cr1p"
+    "cr cr2 cr2p"
+    "cr cr3 cr3p"
+    "sf sf1 sf1p"
+    "sf sf2 sf2p"
+    "sf sf3 sf3p"
+    "cs cs cs";
+  gap: 0.1em;
+  margin-bottom: 1em;
+}
+
+.menu__cr {
+  grid-area: cr;
+}
+
+.menu__sf {
+  grid-area: sf;
+}
+
+.menu__cs {
+  grid-area: cs;
+}
+
+.menu__cr,
+.menu__sf,
+.menu__cs,
+.menu__header {
+  color: var(--HIGHLIGHT-COLOR);
+  font-weight: bold;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.menu__header,
+.menu__item {
+  width: 100%;
+  padding: 1em;
+  border: medium ridge ;
+}
+
+.menu__item {
+  display: grid;
+  place-content: center;
+}
+
+thead th:first-child {
+  border-top-left-radius: 15px;
+}
+
+thead th:last-child {
+  border-top-right-radius:15px;
+}
+
+tfoot td {
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+@media screen and (min-width: 576px) {
+  .header__h1::before {
+    content: '🌮 '
+  }
+
+  .header__h1::after {
+    content: ' 🌮'
+  }
+
+  .menu__header,
+  .menu__cr,
+  .menu__sf,
+  .menu__cs {
+    font-size: 125%;
+  }
+}
