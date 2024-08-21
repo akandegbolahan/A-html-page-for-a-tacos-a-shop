@@ -151,12 +151,12 @@ tfoot td {
   }
 
   .nav-bar ul {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
   }
 
   .nav-bar li {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
 
   #hero {
@@ -165,8 +165,8 @@ tfoot td {
   }
 
   .lts-img {
-    width: 300;
-    height: 267;
+    width: 400px;
+    height: 267px;
     margin-top: 10px;
   }
 }
