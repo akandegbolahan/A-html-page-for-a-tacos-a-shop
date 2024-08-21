@@ -148,7 +148,7 @@ tfoot td {
   .container {
     flex-direction: column;
     align-items: center;
-    justify-content: none;
+    justify-content: space-around;
   }
 
   .nav-bar ul {
@@ -166,7 +166,7 @@ tfoot td {
   }
 
   .lts-img {
-    width: 400px;
+    width: 350px;
     height: 268px;
     margin-top: 0px;
   }
