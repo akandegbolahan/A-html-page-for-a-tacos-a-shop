@@ -152,7 +152,7 @@ tfoot td {
 
   .nav-bar ul {
     flex-direction: column;
-    padding: 7;
+    padding: -7;
   }
 
   .nav-bar li {
