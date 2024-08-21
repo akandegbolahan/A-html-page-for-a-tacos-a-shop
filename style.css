@@ -148,12 +148,12 @@ tfoot td {
   .container {
     flex-direction: column;
     align-items:center;
-    padding: 0%;
+    padding: 0px;
       margin: 0px;
   }
 
   .nav-bar ul {
-    flex-direction: row;
+    flex-direction: column;
     padding: 0px;
     margin: 0px;
   }
