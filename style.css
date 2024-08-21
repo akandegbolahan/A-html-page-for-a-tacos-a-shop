@@ -147,12 +147,13 @@ tfoot td {
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
-    align-items:start ;
+    align-items:center;
   }
 
   .nav-bar ul {
     flex-direction: column;
-    padding: -7;
+    padding: -2px;
+    margin: -2px;
   }
 
   .nav-bar li {
